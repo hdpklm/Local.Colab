@@ -8,5 +8,5 @@ ENTRYPOINT ["jupyter", "notebook", "--NotebookApp.allow_origin='https://colab.re
 
 EXPOSE 999
 
-# docker build -t x-colab .
+# docker build -t inibir/x-colab .
 # docker run --rm --name x-colab -dp 888:888 x-colab
